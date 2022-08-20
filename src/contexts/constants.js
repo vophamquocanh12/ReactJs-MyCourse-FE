@@ -1,4 +1,4 @@
-export const apiUrl = process.env.NODE_ENV !== 'production' ?  'https://localhost:3000/api': 'https://tranquil-earth-98736.herokuapp.com/api'
+export const apiUrl = process.env.NODE_ENV !== 'production' ?  'http://localhost:3000/api': 'someAPI'
 
 
 export const LOCAL_STORAGE_TOKEN_NAME = 'my-course'
