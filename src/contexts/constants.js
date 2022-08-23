@@ -1,4 +1,4 @@
-export const apiUrl = process.env.NODE_ENV !== 'production' ?  'http://localhost:3000/api': 'someAPI'
+export const apiUrl = process.env.NODE_ENV !== 'production' ? 'https://blooming-ridge-18549.herokuapp.com/api' : 'http://localhost:3000/api'
 
 
 export const LOCAL_STORAGE_TOKEN_NAME = 'my-course'
